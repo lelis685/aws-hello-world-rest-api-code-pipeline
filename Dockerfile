@@ -1,4 +1,4 @@
-FROM openjdk:corretto8
+FROM corretto8
 VOLUME /tmp
 EXPOSE 80
 ADD target/*.jar app.jar

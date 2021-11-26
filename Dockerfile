@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM amazoncorretto:8
 VOLUME /tmp
 EXPOSE 80
 ADD target/*.jar app.jar
